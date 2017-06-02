@@ -1,7 +1,7 @@
 ## 数据库：
 #### 概念：按照数据结构来组织、存储和管理数据的仓库
 #### 数据结构：计算机存储、组织数据的方式，如：
-![Alt text](./ds.jpg '数据结构图')
+![Alt text](ds.jpg '数据结构图')
 
 ## 关系型数据库（Sql：MySql、sqlite、oracle） 与 非关系型数据库（NoSql：mongoDB）
 

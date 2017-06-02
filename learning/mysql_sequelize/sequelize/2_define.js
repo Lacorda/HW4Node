@@ -1,3 +1,4 @@
+const Sequelize = require('sequelize');
 const sequelize = require('./1_new_Sequelize');
 
 
@@ -10,9 +11,6 @@ const sequelize = require('./1_new_Sequelize');
  * @param attributes[Object]: 定义字段类型 type、数据库字段名 field 等
  * @param options[Object]:
  */
-function define(name, attributes, options) {
-
-}
 
 const User = sequelize.define('user', {                              //定义数据模型
   username: Sequelize.STRING,

@@ -1,4 +1,4 @@
-const Sequelize = require('');
+const Sequelize = require('sequelize');
 
 /**
  * http://sequelize.readthedocs.io/en/latest/api/sequelize/#new-sequelizedatabase-usernamenull-passwordnull-options

@@ -1,4 +1,4 @@
-const Sequelize = require('sequelize');
+const Sequelize = require('learning/mysql_sequelize/sequelize');
 
 const seq = new Sequelize('blog', 'root', 'baigmygyi5186');
 
