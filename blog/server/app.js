@@ -1,10 +1,7 @@
-// const Koa = require('koa');
-// const app = new Koa();
-// const co = require('co');
-// const router = require('./routes');
-import app from 'koa';
-import router from './routes';
-import co from 'co';
+const Koa = require('koa');
+const app = new Koa();
+const co = require('co');
+const router = require('./routes');
 
 /**
  * ...各种中间件
@@ -36,7 +33,7 @@ app.use(co.wrap(function *(ctx, next) {
 }));
 
 /**
- * router
+ * router中间件
  */
 app
   .use(router.routes())
