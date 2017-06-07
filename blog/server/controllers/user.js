@@ -2,8 +2,9 @@ const UserModel = require('../models/user');
 
 const UserController = function () {
 };
-UserController.prototype.create = function (data, fn) {
-  console.log(ctx);
+UserController.prototype.create = function (ctx, fn) {
+  // ctx.response.status = 200;
+  const data = ctx.request.body;
   UserModel.create(data).then(fn);
 };
 

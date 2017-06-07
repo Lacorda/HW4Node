@@ -10,9 +10,9 @@ const User = sequelize.define('user', {
   password: Sequelize.STRING,
   sex: Sequelize.BOOLEAN,
   email: Sequelize.STRING,
-  telephone: Sequelize.INTEGER,
+  telephone: Sequelize.STRING,
   avatar: Sequelize.STRING
 });
-User.sync({force: true});
+User.sync();
 
 module.exports = User;
